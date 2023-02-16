@@ -57,7 +57,7 @@ The file `DatasetMain.csv` contains the results from the main study. The column 
 * `v_80`            - Attention check 2 (should be 1): *I have never used the internet.* (likert scale)
 * `Condition`       - Random Assignment to either Control or Experimental Condition (C=Control, E=Experimental)
 
-Additionally to these columns 12 columns with the names Q1 -- Q12 are contained in the file. which contain answers to the questions listed below. For each question the answer format is given in brackets. For the questions using the likert scale the encoding is: 1=Stronlgy disagree, 2=Disagree, 3=Neither agree nor disagree, 4=Agree, 5=Strongly agree.
+Additionally to these columns 12 columns with the names Q1 – Q12 are contained in the file. which contain answers to the questions listed below. For each question the answer format is given in brackets. For the questions using the likert scale the encoding is: 1=Stronlgy disagree, 2=Disagree, 3=Neither agree nor disagree, 4=Agree, 5=Strongly agree.
 
 * `Q1`            - What is your age? (Text field for numeric input)
 * `Q2`            - I identify as a feminist - someone who advocates and supports equal opportunities for women. (Likert scale)
