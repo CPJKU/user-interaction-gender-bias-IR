@@ -1,6 +1,6 @@
 # Show me a "Male Nurse"! How Gender Bias is Reflected in the Query Formulation of Search Engine Users
 
-This repository contains supplementary materials from study described in the paper *Show me a \"Male Nurse\"! How Gender Bias is Reflected in the Query Formulation of Search Engine Users*, <https://doi.org/10.1145/3544548.3580863>. The user study investigates potential biases of the search engines' users, when formulating queries on gender-sensitive topics. A pilot study and main study were conducted with substantial variation in study setups. This is described in detail in the main paper. Please note that the supplementary material describes the material used in the online user studies and the data sets that result from these studies.
+This repository contains supplementary materials from the study described in the paper *Show me a \"Male Nurse\"! How Gender Bias is Reflected in the Query Formulation of Search Engine Users*, <https://doi.org/10.1145/3544548.3580863>. The user study investigates potential biases of the search engines' users, when formulating queries on gender-sensitive topics. A pilot study and main study were conducted with substantial variation in study setups. This is described in detail in the main paper. Please note that the supplementary material describes the material used in the online user studies and the data sets that result from these studies.
 
 ## Pilot study
 
