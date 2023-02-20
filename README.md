@@ -1,6 +1,16 @@
 # Show me a "Male Nurse"! How Gender Bias is Reflected in the Query Formulation of Search Engine Users
 
-This repository contains supplementary materials from the study described in the paper *Show me a \"Male Nurse\"! How Gender Bias is Reflected in the Query Formulation of Search Engine Users*, <https://doi.org/10.1145/3544548.3580863>. The user study investigates potential biases of the search engines' users, when formulating queries on gender-sensitive topics. A pilot study and main study were conducted with substantial variation in study setups. This is described in detail in the main paper. This repository contains the data used in the online user studies and the data sets that result from these studies.
+This repository contains the resources and the results of the user studies in this paper. The work investigates the biases of the search engines' users, when formulating queries on gender-sensitive topics. A pilot study and main study were conducted with substantial variation in study setups, as described in detail in the paper. This repository contains the data used in the online user studies, and the datasets that result from these studies, as explained below.
+
+```
+@inproceedings{Kopeinik2023MaleNurse,
+  title={Show me a "Male Nurse"! How Gender Bias is Reflected in the Query Formulation of Search Engine Users},
+  author={Kopeinik, Simone and Mara, Martina and Ratz, Linda and Krieg, Klara and Schedl, Markus and Rekabsaz, Navid},
+  booktitle={Proceeding of the ACM Conference on Human Factors in Computing Systems (CHI)},
+  year={2023}
+}
+```
+[Paper](https://doi.org/10.1145/3544548.3580863), [preprint](https://navid-rekabsaz.github.io/papers/CHI23__Query_Generation_Bias.pdf), [supplementary material](https://navid-rekabsaz.github.io/papers/CHI23__Query_Generation_Bias___Supplementary_Material.pdf)
 
 ## Pilot study
 
@@ -8,7 +18,7 @@ This section describes the three files containing the pilot study data. The form
 
 **DocumentsPilot.csv**
 
-The file `DocumentsPilot.csv` contains a set of 22 documents that were used in the pilot study. Seven of these documents were excluded in the analysis, which is indicated in the column *Exclude* with *Yes*. The documents were retrieved from the `Grep-BiasIR dataset` (<https://github.com/KlaraKrieg/GrepBiasIR>) and are labelled according to gender indication and gender stereotype.
+The file `DocumentsPilot.csv` contains a set of 22 documents that were used in the pilot study. Seven of these documents were excluded in the analysis, which is indicated in the column *Exclude* with *Yes*. The documents were retrieved from the `Grep-BiasIR dataset` ([dataset](https://github.com/KlaraKrieg/GrepBiasIR), [paper](https://arxiv.org/abs/2201.07754)) and are labelled according to gender indication and gender stereotype.
 
 **DatasetPilot.csv**
 
@@ -89,11 +99,3 @@ Additionally to these columns 12 columns with the names Q1 – Q12 are contained
 * `Label`               - Label denoting the gender mentions in the query (f=female, m=male, n=none, r=rejected query)
 
 
-```
-@inproceedings{krieg2022grep,
-  title={Show me a "Male Nurse"! How Gender Bias is Reflected in the Query Formulation of Search Engine Users},
-  author={Kopeinik, Simone and Mara, Martina and Ratz, Linda and Krieg, Klara and Schedl, Markus and Rekabsaz, Navid},
-  booktitle={Proceeding of the ACM Conference on Human Factors in Computing Systems (CHI)},
-  year={2023}
-}
-```
